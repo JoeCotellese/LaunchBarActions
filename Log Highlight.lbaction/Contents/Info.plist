@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.joecotellese.LaunchBar.action.LogHighlight</string>
+	<key>CFBundleName</key>
+	<string>Log Highlight</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>LBDescription</key>
+	<dict>
+		<key>LBAuthor</key>
+		<string>Joe Cotellese</string>
+		<key>LBEmail</key>
+		<string>joe@cotellese.net</string>
+		<key>LBSummary</key>
+		<string>This bundle allow you to log a highlight into Rescue Time's service</string>
+		<key>LBTwitter</key>
+		<string>JoeCotellese</string>
+		<key>LBWebsite</key>
+		<string>http://www.joecotellese.com</string>
+	</dict>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBAcceptedArgumentTypes</key>
+			<array>
+				<string>string</string>
+			</array>
+			<key>LBRequiresArgument</key>
+			<true/>
+			<key>LBResultType</key>
+			<string>unknown</string>
+			<key>LBScriptName</key>
+			<string>default.js</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
